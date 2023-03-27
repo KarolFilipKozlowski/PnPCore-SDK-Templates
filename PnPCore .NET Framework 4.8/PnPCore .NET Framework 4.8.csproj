@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PnPCore.NET_Framework_4._8.csproj</RootNamespace>
-    <AssemblyName>PnPCore.NET_Framework_4._8.csproj</AssemblyName>
+    <RootNamespace>PnPCore.NET_Framework_4._8</RootNamespace>
+    <AssemblyName>PnPCore.NET_Framework_4._8</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

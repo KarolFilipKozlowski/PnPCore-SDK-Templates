@@ -12,7 +12,7 @@ using Microsoft.SharePoint.Client;
 using System.Collections.Generic;
 using PnP.Framework;
 
-namespace PnPCore.NET_Framework_4._8.csproj.PnPHost
+namespace PnPCore.NET_Framework_4._8.PnPHost
 {
     public class CreatePnPHost
     {

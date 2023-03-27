@@ -1,6 +1,6 @@
 ﻿using PnP.Core.Services;
 using PnP.Framework;
-using PnPCore.NET_Framework_4._8.csproj.PnPHost;
+using PnPCore.NET_Framework_4._8.PnPHost;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace PnPCore.NET_Framework_4._8.csproj
+namespace PnPCore.NET_Framework_4._8
 {
     internal class Program
     {
@@ -45,7 +45,7 @@ namespace PnPCore.NET_Framework_4._8.csproj
                     #endregion
 
                     #region Graph SDK Context
-                    // Create a CSOM Context
+                    // Create a Graph Context
                     // Documentation -> https://learn.microsoft.com/pl-pl/graph/api/overview?view=graph-rest-1.0
                     Microsoft.Graph.GraphServiceClient graphServiceClient = CreatePnPHost.CreateGraphClient(context);
                     Microsoft.Graph.User graphUser = await graphServiceClient.Users["Karol@karolkozlowski.onmicrosoft.com"].Request().GetAsync();

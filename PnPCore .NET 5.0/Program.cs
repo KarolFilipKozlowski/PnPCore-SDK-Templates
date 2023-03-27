@@ -39,7 +39,7 @@ namespace PnPCore_.NET_5._0
                     #endregion
 
                     #region Graph SDK Context
-                    // Create a CSOM Context
+                    // Create a Graph Context
                     // Documentation -> https://learn.microsoft.com/pl-pl/graph/api/overview?view=graph-rest-1.0
                     Microsoft.Graph.GraphServiceClient graphServiceClient = CreatePnPHost.GetGraphContext(context);
                     Microsoft.Graph.User graphUser = await graphServiceClient.Users["Karol@karolkozlowski.onmicrosoft.com"].Request().GetAsync();
