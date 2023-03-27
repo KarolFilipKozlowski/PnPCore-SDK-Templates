@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnPCore .NET 5.0", "PnPCore .NET 5.0\PnPCore .NET 5.0.csproj", "{F401B670-58D6-40AD-9081-993E4B896041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnPCore .NET Framework 4.8", "PnPCore .NET Framework 4.8.csproj\PnPCore .NET Framework 4.8.csproj", "{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F401B670-58D6-40AD-9081-993E4B896041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F401B670-58D6-40AD-9081-993E4B896041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F401B670-58D6-40AD-9081-993E4B896041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F401B670-58D6-40AD-9081-993E4B896041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28AD4342-58E7-4C8B-BC6D-33FE5A63F1EC}
+	EndGlobalSection
+EndGlobal
