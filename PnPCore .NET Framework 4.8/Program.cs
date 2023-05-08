@@ -48,7 +48,7 @@ namespace PnPCore.NET_Framework_4._8
                     // Create a Graph Context
                     // Documentation -> https://learn.microsoft.com/pl-pl/graph/api/overview?view=graph-rest-1.0
                     Microsoft.Graph.GraphServiceClient graphServiceClient = CreatePnPHost.CreateGraphClient(context);
-                    Microsoft.Graph.User graphUser = await graphServiceClient.Users["Karol@karolkozlowski.onmicrosoft.com"].Request().GetAsync();
+                    Microsoft.Graph.User graphUser = await graphServiceClient.Users["user@contoso.onmicrosoft.com"].Request().GetAsync();
                     Console.WriteLine($"The display name of test user is {graphUser.DisplayName}");
                     #endregion
                 }

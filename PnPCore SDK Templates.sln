@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PnPCore .NET 5.0", "PnPCore .NET 5.0\PnPCore .NET 5.0.csproj", "{F401B670-58D6-40AD-9081-993E4B896041}"
 EndProject
@@ -9,10 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnPCore .NET Framework 4.8"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C8BB5BE-977A-47CA-A49A-50160E7429C4}"
 	ProjectSection(SolutionItems) = preProject
+		docs\framworkDoc.md = docs\framworkDoc.md
+		docs\netDoc.md = docs\netDoc.md
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnPCore Blazor .NET 5.0", "PnPCore Blazor .NET 5.0\PnPCore Blazor .NET 5.0.csproj", "{3E543CD0-C5A8-4435-A85F-84316F466FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PnPCore .NET 7.0", "PnPCore .NET 7.0\PnPCore .NET 7.0.csproj", "{E6B2B98D-4E46-40C8-B530-95D28E7F59A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +30,10 @@ Global
 		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A5A83C-9031-4EAA-BF3B-8BD5E87945C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E543CD0-C5A8-4435-A85F-84316F466FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E543CD0-C5A8-4435-A85F-84316F466FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E543CD0-C5A8-4435-A85F-84316F466FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E543CD0-C5A8-4435-A85F-84316F466FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B2B98D-4E46-40C8-B530-95D28E7F59A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B2B98D-4E46-40C8-B530-95D28E7F59A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B2B98D-4E46-40C8-B530-95D28E7F59A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B2B98D-4E46-40C8-B530-95D28E7F59A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
